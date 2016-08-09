@@ -45,7 +45,7 @@ var app = app || {};
 
     handleRoute: function(tab) {
       this.setState({selectedTab: tab, items:[] });
-      this.fetchItems(0, PAGE_SIZE);
+      this.fetchItems(0, PAGE_SIZE * 2);
     },
 
     fetchItems: function(startIndex, pagination) {
