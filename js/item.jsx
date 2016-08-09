@@ -12,9 +12,7 @@ var app = app || {};
                   {this.props.item.title}
                 </div>
                 <div className="item-footor">
-                  <span className="item-footor-vote">xxx votes</span>
-                  <span className="item-footor-comment">xxx comments</span>
-                  <span className="item-footor-hide">hide</span>
+                  by {this.props.item.by} | x minuts ago
                 </div>
               </div>
           );

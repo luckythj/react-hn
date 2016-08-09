@@ -2,6 +2,8 @@
   "private": true,
   "dependencies": {
     "director": "^1.2.0",
-    "react": "^0.13.3"
+    "react": "^0.13.3",
+    "classnames": "^2.1.5",
+    "whatwg-fetch": "^1.0.0"
   }
 }
